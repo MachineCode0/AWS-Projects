@@ -51,28 +51,30 @@ Here’s a step-by-step breakdown of how you built the solution:
 * Added an A record for www.phelyxcommunication.com pointing to the CloudFront distribution, ensuring users can access the website using the custom domain.
 
 ## 3. The Business Impact
-Your solution delivers significant business value for Phelyx Communication by:
+The solution delivers significant business value for Phelyx Communication by:
 
 **1. Improving User Experience:**
 
-     * Faster load times and global availability through CloudFront’s edge locations.
+   * Faster load times and global availability through CloudFront’s edge locations.
 
-Reliable uptime and scalability to handle traffic spikes, ensuring users can always access the website.
+   * Reliable uptime and scalability to handle traffic spikes, ensuring users can always access the website.
 
-Enhancing Security:
+**2. Enhancing Security:**
 
-Protection against common web exploits using WAF.
+   * Protection against common web exploits using WAF.
 
-Secure data transmission with HTTPS via ACM, ensuring user data is protected.
+   * Secure data transmission with HTTPS via ACM, ensuring user data is protected.
 
-Reducing Costs:
+**3. Reducing Costs:**
 
-Pay-as-you-go pricing with AWS services ensures cost efficiency.
+   * Pay-as-you-go pricing with AWS services ensures cost efficiency.
 
-Free Tier usage for S3, CloudFront, and WAF reduces initial costs, making it an affordable solution for small to medium-sized businesses.
+   * Free Tier usage for S3, CloudFront, and WAF reduces initial costs, making it an affordable solution for small to medium-sized businesses.
 
-Enabling Better Decision-Making:
+**4. Enabling Better Decision-Making:**
 
-Real-time monitoring and alerts via CloudWatch help you identify and resolve issues quickly.
+   * Real-time monitoring and alerts via CloudWatch help you identify and resolve issues quickly.
 
-Logs and metrics provide insights into website performance and user behavior, enabling data-driven decisions.
+   * Logs and metrics provide insights into website performance and user behavior, enabling data-driven decisions.
+## Conclusion
+This project demonstrates how you successfully built a smart static website hosting solution on AWS for Phelyx Communication. By addressing performance, security, scalability, and cost challenges, you’ve created a reliable and secure online presence that delivers value to your business. The use of AWS services like S3, CloudFront, ACM, WAF, and CloudWatch ensures that your website is fast, secure, and cost-effective, while also providing the tools to monitor and optimize its performance over time.
