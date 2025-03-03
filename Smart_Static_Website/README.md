@@ -55,7 +55,7 @@ Your solution delivers significant business value for Phelyx Communication by:
 
 **1. Improving User Experience:**
 
-	* Faster load times and global availability through CloudFront’s edge locations.
+   * Faster load times and global availability through CloudFront’s edge locations.
 
 Reliable uptime and scalability to handle traffic spikes, ensuring users can always access the website.
 
