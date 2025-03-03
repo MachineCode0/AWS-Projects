@@ -14,7 +14,7 @@ Ensuring fast load times for users worldwide.
  Keeping hosting costs low while maintaining high availability and scalability.
 
 This project addresses these challenges by leveraging AWS services like S3, CloudFront, ACM, WAF, and CloudWatch to create a robust, secure, and scalable hosting solution tailored to your needs.
-<img width="810" alt="Image" src="https://github.com/user-attachments/assets/7aeac875-e9ad-4ecf-bf19-1903ecb993da" />
+<img width="860" alt="Image" src="https://github.com/user-attachments/assets/39280916-d845-4528-8b24-569f2abfa96a" />
 
 ## 2. How to Actually Build it
 Here’s a step-by-step breakdown of how you built the solution:
@@ -77,4 +77,4 @@ The solution delivers significant business value for Phelyx Communication by:
 
    * Logs and metrics provide insights into website performance and user behavior, enabling data-driven decisions.
 ## Conclusion
-This project demonstrates how you successfully built a smart static website hosting solution on AWS for Phelyx Communication. By addressing performance, security, scalability, and cost challenges, you’ve created a reliable and secure online presence that delivers value to your business. The use of AWS services like S3, CloudFront, ACM, WAF, and CloudWatch ensures that your website is fast, secure, and cost-effective, while also providing the tools to monitor and optimize its performance over time.
+This project demonstrates how you successfully built a smart static website hosting solution on AWS for **Phelyx Communication**. By addressing performance, security, scalability, and cost challenges, you’ve created a reliable and secure online presence that delivers value to your business. The use of AWS services like S3, CloudFront, ACM, WAF, and CloudWatch ensures that your website is fast, secure, and cost-effective, while also providing the tools to monitor and optimize its performance over time.
