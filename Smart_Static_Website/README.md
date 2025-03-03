@@ -1,4 +1,4 @@
-# Hosting a Smart Static Website on AWS
+# Hosting a Smart Static Website for Phelyx Communication on AWS
 This projects will be divided into three main parts:
 1. The problem it address.
 2. How to actually build it.
@@ -29,7 +29,7 @@ Here’s a step-by-step breakdown of how you built the solution:
 **Step 2: Accelerate Delivery with CloudFront**
 * Created a CloudFront distribution with the S3 bucket as the origin.
 
-* Configured HTTPS using an SSL/TLS certificate from AWS Certificate Manager (ACM) for the domain www.example.com.
+* Configured HTTPS using an SSL/TLS certificate from AWS Certificate Manager (ACM) for the domain www.phelyxcommunication.com
 
 * Set the Default Root Object to index.html to ensure the homepage loads correctly.
 
@@ -48,4 +48,31 @@ Here’s a step-by-step breakdown of how you built the solution:
 **Step 5: Use Route 53 for DNS**
 * Created a hosted zone for your domain in Route 53.
 
-* Added an A record for www.example.com pointing to the CloudFront distribution, ensuring users can access the website using your custom domain.
+* Added an A record for www.phelyxcommunication.com pointing to the CloudFront distribution, ensuring users can access the website using the custom domain.
+
+## 3. The Business Impact
+Your solution delivers significant business value for Phelyx Communication by:
+
+	**1. Improving User Experience:**
+
+		* Faster load times and global availability through CloudFront’s edge locations.
+
+Reliable uptime and scalability to handle traffic spikes, ensuring users can always access the website.
+
+Enhancing Security:
+
+Protection against common web exploits using WAF.
+
+Secure data transmission with HTTPS via ACM, ensuring user data is protected.
+
+Reducing Costs:
+
+Pay-as-you-go pricing with AWS services ensures cost efficiency.
+
+Free Tier usage for S3, CloudFront, and WAF reduces initial costs, making it an affordable solution for small to medium-sized businesses.
+
+Enabling Better Decision-Making:
+
+Real-time monitoring and alerts via CloudWatch help you identify and resolve issues quickly.
+
+Logs and metrics provide insights into website performance and user behavior, enabling data-driven decisions.
