@@ -4,10 +4,10 @@ This projects will be divided into three main parts:
 2. How to actually build it.
 3. The business impact.
 
-##1. The Problem It Addresses
+## 1. The Problem It Addresses
 As part of my project, I aimed to host a static website for Phelyx Communication that is:
 
-  **- Globally Accessible:**
+**- Globally Accessible:**
  Ensuring fast load times for users worldwide.
 
     **- Secure:**
